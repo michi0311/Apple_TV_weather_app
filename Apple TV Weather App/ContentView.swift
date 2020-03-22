@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+var resSize:CGFloat = 10
+
 struct ContentView: View {
     var body: some View {
         ZStack {
@@ -18,18 +20,19 @@ struct ContentView: View {
             HStack {
                 Text("14°")
                     .foregroundColor(.white)
-                    .font(.title)
+                    .font(.system(size: 20 * resSize))
+                    .fontWeight(.light)
                 VStack {
                     Text("Sankt Kanzian")
                         .foregroundColor(.white)
-                        .font(.largeTitle)
+                        .font(.system(size: 11 * resSize))
                     Text("09:45 - Sunday, 22 Mar 2020 ")
                         .foregroundColor(.white)
-                        .font(.subheadline)
+                        .font(.system(size: 5 * resSize))
                 }
-                Text("Icon")
-                    .foregroundColor(.white)
-                    .font(.title)
+                Image("sunny")
+                    .frame(width: 23.1 * resSize, height: 23.1 * resSize, alignment: .center)
+                
             }
             
         }
