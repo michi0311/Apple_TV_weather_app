@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8211DC6D2427B36F00AAA427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DC6C2427B36F00AAA427 /* AppDelegate.swift */; };
+		8211DC6F2427B36F00AAA427 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DC6E2427B36F00AAA427 /* ContentView.swift */; };
+		8211DC712427B37200AAA427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8211DC702427B37200AAA427 /* Assets.xcassets */; };
+		8211DC742427B37200AAA427 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8211DC732427B37200AAA427 /* Preview Assets.xcassets */; };
+		8211DC772427B37200AAA427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8211DC752427B37200AAA427 /* LaunchScreen.storyboard */; };
+		8211DC822427B37300AAA427 /* Apple_TV_Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DC812427B37300AAA427 /* Apple_TV_Weather_AppTests.swift */; };
+		8211DC8D2427B37300AAA427 /* Apple_TV_Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8211DC8C2427B37300AAA427 /* Apple_TV_Weather_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8211DC7E2427B37300AAA427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211DC612427B36E00AAA427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211DC682427B36F00AAA427;
+			remoteInfo = "Apple TV Weather App";
+		};
+		8211DC892427B37300AAA427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211DC612427B36E00AAA427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211DC682427B36F00AAA427;
+			remoteInfo = "Apple TV Weather App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8211DC692427B36F00AAA427 /* Apple TV Weather App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple TV Weather App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DC6C2427B36F00AAA427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8211DC6E2427B36F00AAA427 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8211DC702427B37200AAA427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8211DC732427B37200AAA427 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8211DC762427B37200AAA427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8211DC782427B37200AAA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211DC7D2427B37300AAA427 /* Apple TV Weather AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Weather AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DC812427B37300AAA427 /* Apple_TV_Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Weather_AppTests.swift; sourceTree = "<group>"; };
+		8211DC832427B37300AAA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8211DC882427B37300AAA427 /* Apple TV Weather AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple TV Weather AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DC8C2427B37300AAA427 /* Apple_TV_Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_TV_Weather_AppUITests.swift; sourceTree = "<group>"; };
+		8211DC8E2427B37300AAA427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8211DC662427B36F00AAA427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC7A2427B37300AAA427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC852427B37300AAA427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8211DC602427B36E00AAA427 = {
+			isa = PBXGroup;
+			children = (
+				8211DC6B2427B36F00AAA427 /* Apple TV Weather App */,
+				8211DC802427B37300AAA427 /* Apple TV Weather AppTests */,
+				8211DC8B2427B37300AAA427 /* Apple TV Weather AppUITests */,
+				8211DC6A2427B36F00AAA427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8211DC6A2427B36F00AAA427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8211DC692427B36F00AAA427 /* Apple TV Weather App.app */,
+				8211DC7D2427B37300AAA427 /* Apple TV Weather AppTests.xctest */,
+				8211DC882427B37300AAA427 /* Apple TV Weather AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8211DC6B2427B36F00AAA427 /* Apple TV Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				8211DC6C2427B36F00AAA427 /* AppDelegate.swift */,
+				8211DC6E2427B36F00AAA427 /* ContentView.swift */,
+				8211DC702427B37200AAA427 /* Assets.xcassets */,
+				8211DC752427B37200AAA427 /* LaunchScreen.storyboard */,
+				8211DC782427B37200AAA427 /* Info.plist */,
+				8211DC722427B37200AAA427 /* Preview Content */,
+			);
+			path = "Apple TV Weather App";
+			sourceTree = "<group>";
+		};
+		8211DC722427B37200AAA427 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8211DC732427B37200AAA427 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8211DC802427B37300AAA427 /* Apple TV Weather AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8211DC812427B37300AAA427 /* Apple_TV_Weather_AppTests.swift */,
+				8211DC832427B37300AAA427 /* Info.plist */,
+			);
+			path = "Apple TV Weather AppTests";
+			sourceTree = "<group>";
+		};
+		8211DC8B2427B37300AAA427 /* Apple TV Weather AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8211DC8C2427B37300AAA427 /* Apple_TV_Weather_AppUITests.swift */,
+				8211DC8E2427B37300AAA427 /* Info.plist */,
+			);
+			path = "Apple TV Weather AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8211DC682427B36F00AAA427 /* Apple TV Weather App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DC912427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather App" */;
+			buildPhases = (
+				8211DC652427B36F00AAA427 /* Sources */,
+				8211DC662427B36F00AAA427 /* Frameworks */,
+				8211DC672427B36F00AAA427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple TV Weather App";
+			productName = "Apple TV Weather App";
+			productReference = 8211DC692427B36F00AAA427 /* Apple TV Weather App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8211DC7C2427B37300AAA427 /* Apple TV Weather AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DC942427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather AppTests" */;
+			buildPhases = (
+				8211DC792427B37300AAA427 /* Sources */,
+				8211DC7A2427B37300AAA427 /* Frameworks */,
+				8211DC7B2427B37300AAA427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211DC7F2427B37300AAA427 /* PBXTargetDependency */,
+			);
+			name = "Apple TV Weather AppTests";
+			productName = "Apple TV Weather AppTests";
+			productReference = 8211DC7D2427B37300AAA427 /* Apple TV Weather AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8211DC872427B37300AAA427 /* Apple TV Weather AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DC972427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather AppUITests" */;
+			buildPhases = (
+				8211DC842427B37300AAA427 /* Sources */,
+				8211DC852427B37300AAA427 /* Frameworks */,
+				8211DC862427B37300AAA427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211DC8A2427B37300AAA427 /* PBXTargetDependency */,
+			);
+			name = "Apple TV Weather AppUITests";
+			productName = "Apple TV Weather AppUITests";
+			productReference = 8211DC882427B37300AAA427 /* Apple TV Weather AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8211DC612427B36E00AAA427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Michael Marolt";
+				TargetAttributes = {
+					8211DC682427B36F00AAA427 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8211DC7C2427B37300AAA427 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 8211DC682427B36F00AAA427;
+					};
+					8211DC872427B37300AAA427 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 8211DC682427B36F00AAA427;
+					};
+				};
+			};
+			buildConfigurationList = 8211DC642427B36F00AAA427 /* Build configuration list for PBXProject "Apple TV Weather App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8211DC602427B36E00AAA427;
+			productRefGroup = 8211DC6A2427B36F00AAA427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8211DC682427B36F00AAA427 /* Apple TV Weather App */,
+				8211DC7C2427B37300AAA427 /* Apple TV Weather AppTests */,
+				8211DC872427B37300AAA427 /* Apple TV Weather AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8211DC672427B36F00AAA427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211DC772427B37200AAA427 /* LaunchScreen.storyboard in Resources */,
+				8211DC742427B37200AAA427 /* Preview Assets.xcassets in Resources */,
+				8211DC712427B37200AAA427 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC7B2427B37300AAA427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC862427B37300AAA427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8211DC652427B36F00AAA427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211DC6F2427B36F00AAA427 /* ContentView.swift in Sources */,
+				8211DC6D2427B36F00AAA427 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC792427B37300AAA427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211DC822427B37300AAA427 /* Apple_TV_Weather_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8211DC842427B37300AAA427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8211DC8D2427B37300AAA427 /* Apple_TV_Weather_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8211DC7F2427B37300AAA427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211DC682427B36F00AAA427 /* Apple TV Weather App */;
+			targetProxy = 8211DC7E2427B37300AAA427 /* PBXContainerItemProxy */;
+		};
+		8211DC8A2427B37300AAA427 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211DC682427B36F00AAA427 /* Apple TV Weather App */;
+			targetProxy = 8211DC892427B37300AAA427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8211DC752427B37200AAA427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8211DC762427B37200AAA427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8211DC8F2427B37300AAA427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		8211DC902427B37300AAA427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8211DC922427B37300AAA427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV Weather App/Preview Content\"";
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Apple TV Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		8211DC932427B37300AAA427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple TV Weather App/Preview Content\"";
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Apple TV Weather App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		8211DC952427B37300AAA427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				INFOPLIST_FILE = "Apple TV Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Weather App.app/Apple TV Weather App";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		8211DC962427B37300AAA427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				INFOPLIST_FILE = "Apple TV Weather AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple TV Weather App.app/Apple TV Weather App";
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		8211DC982427B37300AAA427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				INFOPLIST_FILE = "Apple TV Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Apple TV Weather App";
+			};
+			name = Debug;
+		};
+		8211DC992427B37300AAA427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCT84U44B3;
+				INFOPLIST_FILE = "Apple TV Weather AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelmarolt.Apple-TV-Weather-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Apple TV Weather App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8211DC642427B36F00AAA427 /* Build configuration list for PBXProject "Apple TV Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DC8F2427B37300AAA427 /* Debug */,
+				8211DC902427B37300AAA427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211DC912427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DC922427B37300AAA427 /* Debug */,
+				8211DC932427B37300AAA427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211DC942427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DC952427B37300AAA427 /* Debug */,
+				8211DC962427B37300AAA427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8211DC972427B37300AAA427 /* Build configuration list for PBXNativeTarget "Apple TV Weather AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DC982427B37300AAA427 /* Debug */,
+				8211DC992427B37300AAA427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8211DC612427B36E00AAA427 /* Project object */;
+}
